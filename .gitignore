@@ -42,3 +42,4 @@ next-env.d.ts
 
 # secrets
 backend/.env
+backend/client_secret_697050019201-olrc0ol26l88d8r5tr5jrfisad49nnqj.apps.googleusercontent.com.json
