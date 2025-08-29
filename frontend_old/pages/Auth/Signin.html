@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="icon" type="image/png" href="../../assets/images/webimage.png">
+    <title>CodeSage - AI-Powered Coding Assistant</title>
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <a href="#" class="logo">
+                Code<span>Sage</span>
+            </a>
+            <div class="topbarlinks">
+                <a href="../Home.html" class="home">Home</a>
+                <a href="../About.html" class="about">About</a>
+                <a href="../HowItWorks.html" class="howitworks">How It Works</a>
+            </div>
+            <div class="signincontainer">
+                <button type="button" class="Signinbtn">Sign in</button>
+            </div>
+        </div>
+    </header>
+    <div class="signinpagecontainer">
+        <h1>USER SIGN IN</h1>
+        <div class="signinusernamepassword">
+            <div class="signinusercontainer">
+                <label for="signinemail" class="signinuserlbl">Username :</label>
+                <input type="email" class="usernametxt" placeholder="Enter your username" id="signinemail" required></input>
+            </div>
+            <div class="signinpasscontainer">
+                <label for="signinpassword" class="signinpasslbl">Password :</label>
+                <input type="password" class="passwordtxt" placeholder="Enter your password" id="signinpassword" required></input>
+            </div>
+        </div>
+        <div class="signinupcontainer">
+            <button class="signinpagebtn">Sign In</button>
+            <button class="signupbtn" onclick="Enterpage('createnew')">Sign Up</button>
+        </div>
+        <a href="forgotpassword.html" class="forgetpassworda">Forget password</a>
+
+        <div class="divider">
+            <span>Or continue with</span>
+        </div>
+        
+        <button class="googlesigninbtn">
+            <svg class="googleicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+                <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+                <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+                <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+            </svg>
+            Sign in with Google
+        </button>
+    </div>
+
+    <footer>
+        <div class="footerbar">
+            <div class="footerbarlinks">
+                <a href="../Home.html" class="home">Home</a>
+                <a href="../About.html" class="about">About</a>
+                <a href="../HowItWorks.html" class="howitworks">How It Works</a>
+            </div>
+            <div>
+                <p>© 2025 CodeSage. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../../assets/js/index.js"></script>
+</body>
+</html>

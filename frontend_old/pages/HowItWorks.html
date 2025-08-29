@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/png" href="../assets/images/webimage.png">
+    <title>CodeSage - AI-Powered Coding Assistant</title>
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <a href="#" class="logo">
+                Code<span>Sage</span>
+            </a>
+            <div class="topbarlinks">
+                <a href="Home.html" class="home">Home</a>
+                <a href="About.html" class="about">About</a>
+                <a href="#" class="howitworks" style="color: blue;">How It Works</a>
+            </div>
+            <div class="signincontainer">
+                <button type="button" class="Signinbtn" onclick="Enterpage('Auth/Signin')">Sign in</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="howitworkscontainer">
+        <h1 class="howitworksh1">How it works</h1>
+        <div class="howitworkspcontainer">
+            <p>When you're stuck on a problem, simply input it into our platform. CodeSage can analyze questions from all major competitive programming sites or any original coding challenge.</p>
+            <p>Behind the scenes, our sophisticated artificial intelligence model gets to work. This model has been trained on a vast dataset of thousands of solved competitive programming questions. It deconstructs your problem to understand its structure, identify patterns, and determine the optimal solving approach.</p>
+            <p>Instead of a direct solution, CodeSage provides a curated sequence of hints. These hints start with general guidance about the problem's concept and gradually become more specific, nudging you toward the implementation details. This method is designed to replicate the "aha!" moment of discovery, building your intuition.</p>
+            <p>If you've exhausted the hints and still need closure, you can unlock the complete solution. This final step includes a comprehensive, well-commented answer with detailed explanations on why it works, including time complexity analysis and alternative approaches. This ensures you learn from the solution, rather than just copying it.</p>
+            <p>With each problem you tackle, CodeSage tracks your progress. Over time, it identifies your strengths and weaknesses, helping you systematically improve your algorithmic thinking and coding proficiency. The goal is to make you a more independent and confident programmer, capable of tackling any challenge.</p>
+        </div>
+    </div>
+
+    <div class="problemcontainer">
+        <div class="problemtabs">
+            <div class="problemtab active">Problem Description</div>
+            <div class="problemtab">Your Submissions</div>
+            <div class="problemtab">Dashboard</div>
+        </div>
+
+        <div class="problemheader" style="justify-content: center;">
+            <h1 class="problemtitle">Matrix Game</h1>
+        </div>
+
+        <div class="problemdescription">
+            <p>Aryan and Harshith play a game. They both start with three integers a, b, and k. Aryan then gives Harshith two integers n and m. Harshith then gives Aryan a matrix X with n rows and m columns, such that each of the elements of X is between 1 and k (inclusive).</p>
+            <p>After that, Aryan wins if he can find a submatrix Y of X with a rows and b columns such that all elements of Y are equal.</p>
+        </div>
+
+        <div class="problemmeta">
+            <div class="metaitem">
+                <span class="metalabel">Problem ID</span>
+                <span class="metavalue">3456246</span>
+            </div>
+            <div class="metaitem">
+                <span class="metalabel">Category</span>
+                <span class="metavalue">Greedy</span>
+            </div>
+            <div class="metaitem">
+                <span class="metalabel">Difficulty</span>
+                <span class="metavalue">Easy</span>
+            </div>
+            <div class="metaitem">
+                <span class="metalabel">Submission Status</span>
+                <span class="metavalue">Accepted</span>
+            </div>
+        </div>
+
+        <div class="codeactions">
+            <div class="evaluatebtncontainer">
+                <img src="../assets/images/Evaluatecode.png" alt="Evaluate Code Button">
+                <button class="actionbtn evaluatebtn">Evaluate Code</button>
+            </div>
+            <div class="submitbtncontainer">
+                <img src="../assets/images/submitfile.png" alt="Submit File Button">
+                <button class="actionbtn submitbtn">Submit File</button>
+            </div>
+        </div>
+        <textarea class="codeeditor" placeholder="Write your code here...">1
+2</textarea>
+    </div>
+
+    <footer>
+        <div class="footerbar">
+            <div class="footerbarlinks">
+                <a href="Home.html" class="home">Home</a>
+                <a href="About.html" class="about">About</a>
+                <a href="#" class="howitworks">How It Works</a>
+            </div>
+            <div>
+                <p>© 2025 CodeSage. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../assets/js/index.js"></script>
+</body>
+</html>

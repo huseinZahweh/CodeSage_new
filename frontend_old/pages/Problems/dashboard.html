@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="../../assets/images/webimage.png">
+    <title>CodeSage - Dashboard</title>
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <a href="../Home.html" class="logo">
+                Code<span>Sage</span>
+            </a>
+            <div class="topbarlinks">
+                <a href="../Home.html" class="home">Home</a>
+                <a href="../About.html" class="about">About</a>
+                <a href="../HowItWorks.html" class="howitworks">How It Works</a>
+            </div>
+            <div id="authSection">
+                <!-- This will be populated by JavaScript -->
+            </div>
+        </div>
+    </header>
+    
+    <div class="dashboardcontainer">
+
+        <div class="tabsnavigation">
+            <button class="tabbutton" onclick="Enterpage('problems')">Problems</button>
+            <button class="tabbutton" onclick="Enterpage('submissions')">Your Submissions</button>
+            <button class="tabbutton active" onclick="Enterpage('dashboard')">Dashboard</button>
+        </div>
+
+        <h1 class="dashboardtitle">Dashboard</h1>
+        
+        <div class="statscontainer">
+            <div class="statcard">
+                <div class="statnumber">24</div>
+                <div class="statlabel">Problems Solved</div>
+            </div>
+            <div class="statcard">
+                <div class="statnumber">85%</div>
+                <div class="statlabel">Accuracy</div>
+            </div>
+            <div class="statcard">
+                <div class="statnumber">12</div>
+                <div class="statlabel">Current Streak</div>
+            </div>
+        </div>
+        
+        <div class="recentactivity">
+            <h2 class="activitytitle">Recent Activity</h2>
+            <div class="activityitem">
+                <span class="problemname">Two Sum</span>
+                <span class="statusaccepted">Accepted</span>
+            </div>
+            <div class="activityitem">
+                <span class="problemname">Matrix Game</span>
+                <span class="statuspending">Pending</span>
+            </div>
+            <div class="activityitem">
+                <span class="problemname">Reverse Linked List</span>
+                <span class="statusrejected">Rejected</span>
+            </div>
+            <div class="activityitem">
+                <span class="problemname">Binary Search</span>
+                <span class="statusaccepted">Accepted</span>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footerbar">
+            <div class="footerbarlinks">
+                <a href="../Home.html" class="home">Home</a>
+                <a href="../About.html" class="about">About</a>
+                <a href="../HowItWorks.html" class="howitworks">How It Works</a>
+            </div>
+            <div>
+                <p>© 2025 CodeSage. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../../assets/js/index.js"></script>
+</body>
+</html>

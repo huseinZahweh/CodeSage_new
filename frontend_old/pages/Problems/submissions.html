@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="../../assets/images/webimage.png">
+    <title>CodeSage - Submissions</title>
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <a href="../Home.html" class="logo">
+                Code<span>Sage</span>
+            </a>
+            <div class="topbarlinks">
+                <a href="../Home.html" class="home">Home</a>
+                <a href="../About.html" class="about">About</a>
+                <a href="../HowItWorks.html" class="howitworks">How It Works</a>
+            </div>
+            <div id="authSection">
+                <!-- This will be populated by JavaScript -->
+            </div>
+        </div>
+    </header>
+    
+    <div class="submissionscontainer">
+
+        <div class="tabsnavigation">
+            <button class="tabbutton" onclick="Enterpage('problems')">Problems</button>
+            <button class="tabbutton active" onclick="Enterpage('submissions')">Your Submissions</button>
+            <button class="tabbutton" onclick="Enterpage('dashboard')">Dashboard</button>
+        </div>
+
+        <h1 class="dashboardtitle">Your Submissions</h1>
+        
+        <table class="submissionstable">
+            <thead>
+                <tr>
+                    <th>Problem Name</th>
+                    <th>Category</th>
+                    <th>Difficulty</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="../IDE/ide.html" class="problemlink">Two Sum</a></td>
+                    <td>Array</td>
+                    <td>Easy</td>
+                    <td class="statusaccepted">Accepted</td>
+                </tr>
+                <tr>
+                    <td><a href="../IDE/ide.html" class="problemlink">Matrix Game</a></td>
+                    <td>Greedy</td>
+                    <td>Easy</td>
+                    <td class="statuspending">Pending</td>
+                </tr>
+                <tr>
+                    <td><a href="../IDE/ide.html" class="problemlink">Reverse Linked List</a></td>
+                    <td>Linked List</td>
+                    <td>Medium</td>
+                    <td class="statusrejected">Rejected</td>
+                </tr>
+                <tr>
+                    <td><a href="../IDE/ide.html" class="problemlink">Binary Search</a></td>
+                    <td>Search</td>
+                    <td>Easy</td>
+                    <td class="statusaccepted">Accepted</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <footer>
+        <div class="footerbar">
+            <div class="footerbarlinks">
+                <a href="../Home.html" class="home">Home</a>
+                <a href="../About.html" class="about">About</a>
+                <a href="../HowItWorks.html" class="howitworks">How It Works</a>
+            </div>
+            <div>
+                <p>© 2025 CodeSage. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../../assets/js/index.js"></script>
+</body>
+</html>
